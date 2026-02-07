@@ -1,0 +1,42 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# VSCode settings
+.vscode/
+# macOS files
+.DS_Store
+# Logs and databases
+*.log
+*.sqlite3
+# Environment variables
+.env
+.env.*
+# data files
+data/
+output/
+results/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.h5
+*.db
+*.parquet
+
+# .gitignore
+terraform.tfvars
+*.tfvars
+!terraform.tfvars.example
+.terraform/
+*.tfstate*
+.env
